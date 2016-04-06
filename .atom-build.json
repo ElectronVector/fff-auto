@@ -1,0 +1,3 @@
+{
+  "cmd": "rspec spec/fff_generator_spec.rb"
+}
