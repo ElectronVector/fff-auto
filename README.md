@@ -11,4 +11,18 @@ This will create a mock_header.h file in the provided output directory. If no OU
 
 The mock header file can be included in your tests instead of the real module defined in the original header file.
 
+## Testing
+
+Run the tests with:
+
+```
+rspec spec/fff_generator_spec.rb
+```
+
+## Implementation
+
 This uses the C header file parser used by [CMock](https://github.com/ThrowTheSwitch/CMock).
+
+## To Do
+
+- Add support for `const` arguments.
